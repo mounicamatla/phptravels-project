@@ -54,6 +54,7 @@ public class Phptravels {
 	       driver.findElement(By.xpath("//*[@id=\"inputNewPassword2\"]")).sendKeys("anu124");
 	   
 	       driver.findElement(By.xpath("//*[@id=\"frmCheckout\"]/div[3]/div/div/span[2]")).click();
+           System.out.println(expectedTitle);
 	    
 	      if(actualTitle.contentEquals(expectedTitle))
 	       {
